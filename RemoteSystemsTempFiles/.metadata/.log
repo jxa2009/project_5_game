@@ -1,0 +1,455 @@
+!SESSION 2020-03-30 17:58:07.751 -----------------------------------------------
+eclipse.buildId=Version 1.3.0
+java.version=1.8.0_242
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  /home/jasonau/Courses/rtes/project_5_game/project5_game/.project
+Command-line arguments:  -os linux -ws gtk -arch x86_64 /home/jasonau/Courses/rtes/project_5_game/project5_game/.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2020-03-30 17:58:21.987
+!MESSAGE Log4j initialized with config file /home/jasonau/Courses/rtes/project_5_game/RemoteSystemsTempFiles/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2020-03-30 17:58:23.020
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-03-30 17:58:26.269
+!MESSAGE Indexed 'project5_game' (23 sources, 77 headers) in 2.87 sec: 5,109 declarations; 29,090 references; 4 unresolved inclusions; 65 syntax errors; 1,280 unresolved names (3.6%)
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2020-03-30 17:58:27.898
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY org.eclipse.ui 4 0 2020-03-30 18:37:52.946
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.internal.views.helpers.EmptyWorkspaceHelper.dispose(EmptyWorkspaceHelper.java:140)
+	at org.eclipse.ui.internal.views.helpers.EmptyWorkspaceHelper.access$3(EmptyWorkspaceHelper.java:139)
+	at org.eclipse.ui.internal.views.helpers.EmptyWorkspaceHelper$Listener.widgetDisposed(EmptyWorkspaceHelper.java:379)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5618)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1405)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1431)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1410)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1222)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4648)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1504)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1225)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4648)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1504)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1225)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4648)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1504)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1225)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4648)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1504)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1225)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4648)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1504)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1225)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4648)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1504)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1225)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4648)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1504)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1225)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4648)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1504)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1225)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4648)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1504)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:279)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:486)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:3232)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1225)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4648)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:528)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:3155)
+	at org.eclipse.swt.widgets.Display.release(Display.java:4457)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:236)
+	at org.eclipse.swt.widgets.Display$SessionManagerListener.stop(Display.java:211)
+	at org.eclipse.swt.internal.SessionManagerDBus.handleStop(SessionManagerDBus.java:292)
+	at org.eclipse.swt.internal.SessionManagerDBus.handleEndSession(SessionManagerDBus.java:282)
+	at org.eclipse.swt.internal.SessionManagerDBus.g_signal_handler(SessionManagerDBus.java:313)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1603)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4404)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:227)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$0(IDEWorkbenchAdvisor.java:158)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5618)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5610)
+	at org.eclipse.swt.widgets.Display$SessionManagerListener.isReadyToExit(Display.java:205)
+	at org.eclipse.swt.internal.SessionManagerDBus.queryReadyToExit(SessionManagerDBus.java:261)
+	at org.eclipse.swt.internal.SessionManagerDBus.handleQueryEndSession(SessionManagerDBus.java:272)
+	at org.eclipse.swt.internal.SessionManagerDBus.g_signal_handler(SessionManagerDBus.java:310)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1603)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4404)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:633)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1441)
+
+!ENTRY org.eclipse.ui 4 0 2020-03-30 18:37:52.951
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.internal.NavigationHistory.getDisplay(NavigationHistory.java:178)
+	at org.eclipse.ui.internal.NavigationHistory.markEditor(NavigationHistory.java:197)
+	at org.eclipse.ui.internal.WorkbenchPage.updateActiveEditorSources(WorkbenchPage.java:429)
+	at org.eclipse.ui.internal.WorkbenchPage.firePartClosed(WorkbenchPage.java:5106)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.lambda$0(CompatibilityPart.java:108)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:146)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5728)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:219)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setWidget(UIElementImpl.java:267)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.unbindWidget(SWTPartRenderer.java:151)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.lambda$0(SWTPartRenderer.java:140)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5618)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1405)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1431)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1410)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1222)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4648)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1504)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1225)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4648)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1504)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1225)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4648)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1504)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1225)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4648)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1504)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1225)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4648)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1504)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1225)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4648)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1504)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1225)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4648)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1504)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1225)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4648)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1504)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1225)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4648)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1504)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:279)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:486)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:3232)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1225)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4648)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:528)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:3155)
+	at org.eclipse.swt.widgets.Display.release(Display.java:4457)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:236)
+	at org.eclipse.swt.widgets.Display$SessionManagerListener.stop(Display.java:211)
+	at org.eclipse.swt.internal.SessionManagerDBus.handleStop(SessionManagerDBus.java:292)
+	at org.eclipse.swt.internal.SessionManagerDBus.handleEndSession(SessionManagerDBus.java:282)
+	at org.eclipse.swt.internal.SessionManagerDBus.g_signal_handler(SessionManagerDBus.java:313)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1603)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4404)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:227)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$0(IDEWorkbenchAdvisor.java:158)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5618)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5610)
+	at org.eclipse.swt.widgets.Display$SessionManagerListener.isReadyToExit(Display.java:205)
+	at org.eclipse.swt.internal.SessionManagerDBus.queryReadyToExit(SessionManagerDBus.java:261)
+	at org.eclipse.swt.internal.SessionManagerDBus.handleQueryEndSession(SessionManagerDBus.java:272)
+	at org.eclipse.swt.internal.SessionManagerDBus.g_signal_handler(SessionManagerDBus.java:310)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1603)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4404)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:633)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1441)
+
+!ENTRY org.eclipse.ui 4 0 2020-03-30 18:37:53.077
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.preShutdown(IDEWorkbenchAdvisor.java:369)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1056)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1409)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:55)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1409)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1385)
+	at org.eclipse.ui.internal.Workbench.lambda$17(Workbench.java:2788)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5618)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5610)
+	at org.eclipse.swt.widgets.Display$SessionManagerListener.isReadyToExit(Display.java:205)
+	at org.eclipse.swt.internal.SessionManagerDBus.queryReadyToExit(SessionManagerDBus.java:261)
+	at org.eclipse.swt.internal.SessionManagerDBus.handleQueryEndSession(SessionManagerDBus.java:272)
+	at org.eclipse.swt.internal.SessionManagerDBus.g_signal_handler(SessionManagerDBus.java:310)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1603)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4404)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:633)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1441)
+!SESSION 2020-04-06 17:02:37.797 -----------------------------------------------
+eclipse.buildId=Version 1.3.0
+java.version=1.8.0_242
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  /home/jasonau/Courses/rtes/project_5_game/project5_game/.project
+Command-line arguments:  -os linux -ws gtk -arch x86_64 /home/jasonau/Courses/rtes/project_5_game/project5_game/.project
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-04-06 17:02:41.853
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2020-04-06 17:02:44.142
+!MESSAGE Log4j initialized with config file /home/jasonau/Courses/rtes/project_5_game/RemoteSystemsTempFiles/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2020-04-06 17:02:57.123
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2020-04-06 17:02:57.696
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-06 17:03:00.505
+!MESSAGE Indexed 'project5_game' (23 sources, 82 headers) in 2.95 sec: 5,219 declarations; 30,868 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2020-04-06 17:11:23.232
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+!SESSION 2020-04-06 17:13:51.137 -----------------------------------------------
+eclipse.buildId=Version 1.3.0
+java.version=1.8.0_242
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  /home/jasonau/Courses/rtes/project_5_game/project5_game/.project
+Command-line arguments:  -os linux -ws gtk -arch x86_64 /home/jasonau/Courses/rtes/project_5_game/project5_game/.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2020-04-06 17:13:56.698
+!MESSAGE Log4j initialized with config file /home/jasonau/Courses/rtes/project_5_game/RemoteSystemsTempFiles/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2020-04-06 17:14:00.065
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2020-04-06 17:14:00.611
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-06 17:14:03.148
+!MESSAGE Indexed 'project5_game' (23 sources, 82 headers) in 3.07 sec: 5,220 declarations; 30,875 references; 0 unresolved inclusions; 1 syntax errors; 1 unresolved names (0.0028%)
+!SESSION 2020-04-06 17:16:52.657 -----------------------------------------------
+eclipse.buildId=Version 1.3.0
+java.version=1.8.0_242
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  /home/jasonau/Courses/rtes/rtes-project-3-bank_simulator/Proj3Demo/.project
+Command-line arguments:  -os linux -ws gtk -arch x86_64 /home/jasonau/Courses/rtes/rtes-project-3-bank_simulator/Proj3Demo/.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2020-04-06 17:16:56.653
+!MESSAGE Log4j initialized with config file /home/jasonau/Courses/rtes/project_5_game/RemoteSystemsTempFiles/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2020-04-06 17:16:59.984
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2020-04-06 17:17:09.124
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-06 17:17:12.593
+!MESSAGE Indexed 'Proj3Demo' (42 sources, 131 headers) in 5.66 sec: 12,905 declarations; 67,725 references; 14 unresolved inclusions; 437 syntax errors; 1,791 unresolved names (2.2%)
+!SESSION 2020-04-06 17:26:39.565 -----------------------------------------------
+eclipse.buildId=Version 1.3.0
+java.version=1.8.0_242
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  /home/jasonau/Courses/rtes/project_5_game/project5_game/.project
+Command-line arguments:  -os linux -ws gtk -arch x86_64 /home/jasonau/Courses/rtes/project_5_game/project5_game/.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2020-04-06 17:28:22.362
+!MESSAGE Log4j initialized with config file /home/jasonau/Courses/rtes/project_5_game/RemoteSystemsTempFiles/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2020-04-06 17:28:26.047
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2020-04-06 17:28:26.604
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-06 17:28:29.201
+!MESSAGE Indexed 'project5_game' (23 sources, 82 headers) in 3.18 sec: 5,220 declarations; 30,875 references; 0 unresolved inclusions; 1 syntax errors; 1 unresolved names (0.0028%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2020-04-06 17:29:30.722
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2020-04-06 17:30:10.969
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2020-04-06 17:31:48.220
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY org.eclipse.jface 2 0 2020-04-06 17:32:56.070
+!MESSAGE Ignored reentrant call while viewer is busy. This is only logged once per viewer instance, but similar calls will still be ignored.
+!STACK 0
+java.lang.RuntimeException
+	at org.eclipse.jface.viewers.ColumnViewer.checkBusy(ColumnViewer.java:764)
+	at org.eclipse.jface.viewers.ColumnViewer.update(ColumnViewer.java:543)
+	at org.eclipse.ui.navigator.CommonViewer.update(CommonViewer.java:512)
+	at org.eclipse.jface.viewers.StructuredViewer.update(StructuredViewer.java:1965)
+	at org.eclipse.ui.internal.navigator.resources.nested.NestedProjectsLabelProvider.lambda$2(NestedProjectsLabelProvider.java:87)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1609)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1596)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-06 17:34:04.296
+!MESSAGE Indexed 'Proj3Demo' (42 sources, 135 headers) in 2.27 sec: 13,064 declarations; 69,986 references; 2 unresolved inclusions; 134 syntax errors; 146 unresolved names (0.18%)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2020-04-06 17:38:55.950
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/jasonau/Courses/rtes/project_5_game/project5_game/Debug/project5_game.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:131)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:315)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:142)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:106)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:94)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:283)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:860)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:719)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1017)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1220)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2020-04-06 17:38:55.950
+!MESSAGE /home/jasonau/Courses/rtes/project_5_game/project5_game/Debug/project5_game.elf not found
+!STACK 0
+java.io.FileNotFoundException: /home/jasonau/Courses/rtes/project_5_game/project5_game/Debug/project5_game.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:131)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:315)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:142)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:106)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:94)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:283)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:860)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:719)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1017)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1220)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2020-04-06 17:51:15.681
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2020-04-06 18:08:10.066
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/jasonau/Courses/rtes/project_5_game/project5_game/Debug/project5_game.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:131)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:315)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:142)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:106)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:94)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:283)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:860)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:719)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1017)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1220)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2020-04-06 18:08:10.066
+!MESSAGE /home/jasonau/Courses/rtes/project_5_game/project5_game/Debug/project5_game.elf not found
+!STACK 0
+java.io.FileNotFoundException: /home/jasonau/Courses/rtes/project_5_game/project5_game/Debug/project5_game.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:131)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:315)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:142)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:106)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:94)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:283)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:860)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:719)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1017)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1220)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2020-04-06 18:18:14.151
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-04-06 18:43:55.709
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.debug.core.DebugPlugin$EventDispatchJob

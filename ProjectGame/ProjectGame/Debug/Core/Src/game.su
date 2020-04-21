@@ -1,0 +1,3 @@
+game.c:8:6:Init_Board	56	static
+game.c:21:6:update_tail_positions	24	static
+game.c:37:5:random_limit	16	static
